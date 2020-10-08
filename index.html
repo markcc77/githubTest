@@ -116,6 +116,12 @@
 
 <script src="navbarMod/jquery.min.js"></script>
 <script>
+    $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
             $('.nav').addClass('affix');
@@ -124,6 +130,7 @@
             $('.nav').removeClass('affix');
         }
     });
+});
 </script>
 <script src="bootstrap/js/bootstrap.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
