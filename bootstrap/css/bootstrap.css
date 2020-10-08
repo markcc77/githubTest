@@ -4317,7 +4317,12 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  /*padding: 0.5rem 1rem;*/
+  padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  top: 0; /* At the top */
+  z-index: 99;
 }
 
 .navbar .container,
