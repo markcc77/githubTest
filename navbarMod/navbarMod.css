@@ -59,7 +59,7 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #099c04;
     line-height: 65px;
     font-size: 2.4rem;
 }
@@ -157,7 +157,7 @@ body {
 }
 
 .navTrigger i {
-    background-color: #fff;
+    background-color: #099c04;
     border-radius: 2px;
     content: '';
     display: block;
@@ -336,7 +336,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #111;
+    background-color: #fff;
 }
 
 
