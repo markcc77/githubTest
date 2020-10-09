@@ -66,13 +66,13 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: var(--yelloTheme);
+    color: #fcc100;
     line-height: 65px;
     font-size: 2.4rem;
 }
 
 .nav div.main_list ul li a:hover {
-    color: var(--tealTheme);
+    color: #20c997;
 }
 
 
@@ -129,7 +129,7 @@ body {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: var(--darkTheme);
+        background-color: #181818;
         /*same background color of navbar*/
         background-position: center top;
     }
@@ -343,7 +343,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: var(--darklightTheme);
+    background-color: #242424;
 }
 
 
