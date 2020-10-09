@@ -1,3 +1,11 @@
+:root{
+    --darkTheme:#181818;
+    --darklightTheme:#242424;
+    --yellowTheme:#fcc100;
+    --greenTheme:#00ff37;
+    --tealTheme: #20c997;
+}
+
 html,
 body {
     margin: 0;
