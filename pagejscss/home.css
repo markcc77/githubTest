@@ -1,0 +1,63 @@
+@font-face{
+    font-family: 'MyWebFont';
+    src: url('fontawesome/font/BebasNeue-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fontawesome/font/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fontawesome/font/BebasNeue-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fontawesome/font/BebasNeue-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fontawesome/font/BebasNeue-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('fontawesome/font/BebasNeue-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.icon-moveright{
+    padding-left:0px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; 
+}
+
+.icon-moveright:hover{
+    padding-left:20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; 
+}
+
+.bG-color-gray{ background-color: gray; }
+.bG-color-dark1{ background-color: #a0a0a0; }
+.bG-color-dark2{ background-color: #c5c5c5; }
+.bG-color-dark3{ background-color: #ebebeb; }
+
+.prodBG{
+    background-image: url(../images/prodBG2darken.jpg);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.prodBG:hover{
+    background-image: url(../images/prodBG.jpg);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.imgHover{
+   
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.imgHover:hover{
+    margin-top:-10px;
+    margin-bottom:10px;
+    transform: rotate(2deg) scale(1.1);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.zIndex-1{z-index: 1;}
+.zIndex-2{z-index: 2;}
+.zIndex-3{z-index: 3;}
+.zIndex-4{z-index: 4;}
+.zIndex-5{z-index: 5;}
+
+.imageShadow{
+    box-shadow: 5px 5px 0px #fcc100;
+}
